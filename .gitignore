@@ -5,4 +5,6 @@ __pycache__/
 .venv/
 venv/
 
-*.md
+*.md!CLAUDE.md
+!HANDOFF.md
+!.claude/**/*.md

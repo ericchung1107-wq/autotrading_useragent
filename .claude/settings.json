@@ -1,0 +1,22 @@
+{
+  "model": "sonnet",
+  "env": {
+    "MAX_THINKING_TOKENS": "8000"
+  },
+  "permissions": {
+    "deny": [
+      "Read(./node_modules/**)",
+      "Read(./dist/**)",
+      "Read(./build/**)",
+      "Read(./.next/**)",
+      "Read(./coverage/**)",
+      "Read(./package-lock.json)",
+      "Read(./yarn.lock)",
+      "Read(./pnpm-lock.yaml)",
+      "Read(./.env*)",
+      "Read(./**/__pycache__/**)",
+      "Read(./.venv/**)",
+      "Read(./venv/**)"
+    ]
+  }
+}
